@@ -35,6 +35,8 @@ public class MainActivity extends Activity {
     public Button mDO2button;
     public Button mDO3button;
 
+    int mDO0state = 0;
+
     
     private class ReadThread extends Thread {
 
@@ -90,10 +92,16 @@ public class MainActivity extends Activity {
             //DisplayError(R.string.error_unknown);
         }
 
-        mDO0button.setOnLongClickListener(new View.OnLongClickListener() {
-            @Override
-            public boolean onLongClick(View v) {
-                return false;
+        mDO0button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                try {
+                    if (mDO0state == 1) {
+                        mDO0state = 0;
+                    } else {
+                        mDO0state = 1;
+                    }
+                    mOutputStream.write(mDO0state);
+                } catch (Exception e) {}
             }
         });
     }

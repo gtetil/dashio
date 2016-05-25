@@ -4,33 +4,34 @@
     api-level="22"
     density="mdpi"
     format="7"
-    timestamp="1090173257039939" >
+    timestamp="1178363749352106" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="66" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="16" />
     <task
         name="verifier"
-        duration="0" />
+        duration="1" />
 
-    <build timestamp="1086996234629160" >
+    <artifact
+        location="C:\Users\Tetil\Google Drive\Projects\dashio\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+        type="DEX" />
+
+    <build timestamp="1176222790041422" >
         <artifact
-            location="C:\Users\Tetil\Google Drive\DashIO\app\build\outputs\apk\app-debug.apk"
+            location="C:\Users\Tetil\Google Drive\Projects\dashio\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
-    <build
-        timestamp="1089896785186825"
-        verifier="FIELD_ADDED" >
+    <build timestamp="1178363749352106" >
         <artifact
-            location="C:\Users\Tetil\Google Drive\DashIO\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+            location="C:\Users\Tetil\Google Drive\Projects\dashio\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
             type="DEX" />
     </build>
-    <build timestamp="1090173257039939" />
 
 </instant-run>

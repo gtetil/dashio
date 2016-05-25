@@ -4,6 +4,14 @@
         "source": "C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\Tetil\\Google Drive\\Projects\\dashio\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Tetil\\Google Drive\\Projects\\dashio\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Tetil\\Google Drive\\Projects\\dashio\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\google_maps.png",
+        "source": "C:\\Users\\Tetil\\Google Drive\\Projects\\dashio\\app\\src\\main\\res\\mipmap-hdpi\\google_maps.png"
+    },
+    {
         "merged": "C:\\Users\\Tetil\\Google Drive\\DashIO\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher.png",
         "source": "C:\\Users\\Tetil\\Google Drive\\DashIO\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },

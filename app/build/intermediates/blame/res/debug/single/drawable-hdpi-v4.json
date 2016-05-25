@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\Tetil\\Google Drive\\Projects\\dashio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Tetil\\Google Drive\\Projects\\dashio\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Users\\Tetil\\Google Drive\\DashIO\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
         "source": "C:\\Users\\Tetil\\Google Drive\\DashIO\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     },
