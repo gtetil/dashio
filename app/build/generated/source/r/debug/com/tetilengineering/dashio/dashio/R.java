@@ -28,21 +28,17 @@ public final class R {
         public static final int DI3_indicator=0x7f090004;
         public static final int DI4_indicator=0x7f090005;
         public static final int DI5_indicator=0x7f090006;
-        public static final int DI6_indicator=0x7f090007;
-        public static final int DI7_indicator=0x7f090008;
-        public static final int DO0_button=0x7f09000a;
-        public static final int DO1_button=0x7f09000b;
-        public static final int DO2_button=0x7f09000c;
-        public static final int DO3_button=0x7f09000d;
-        public static final int DO4_button=0x7f09000e;
-        public static final int DO5_button=0x7f09000f;
-        public static final int DO6_button=0x7f090010;
-        public static final int DO7_button=0x7f090011;
-        public static final int action_settings=0x7f090014;
-        public static final int google_maps_btn=0x7f090013;
+        public static final int DO0_button=0x7f090008;
+        public static final int DO1_button=0x7f090009;
+        public static final int DO2_button=0x7f09000a;
+        public static final int DO3_button=0x7f09000b;
+        public static final int DO4_button=0x7f09000c;
+        public static final int DO5_button=0x7f09000d;
+        public static final int action_settings=0x7f090010;
+        public static final int google_maps_btn=0x7f09000f;
         public static final int linearLayout=0x7f090000;
-        public static final int linearLayout2=0x7f090009;
-        public static final int linearLayout3=0x7f090012;
+        public static final int linearLayout2=0x7f090007;
+        public static final int linearLayout3=0x7f09000e;
     }
     public static final class layout {
         public static final int activity_main=0x7f040000;

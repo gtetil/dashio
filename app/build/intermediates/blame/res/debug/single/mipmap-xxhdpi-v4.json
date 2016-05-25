@@ -1,5 +1,13 @@
 [
     {
+        "merged": "C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\google_maps.png",
+        "source": "C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\src\\main\\res\\mipmap-xxhdpi\\google_maps.png"
+    },
+    {
+        "merged": "C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Users\\Tetil\\Google Drive\\DashIO\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
         "source": "C:\\Users\\Tetil\\Google Drive\\DashIO\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },

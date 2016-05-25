@@ -4,8 +4,20 @@
         "source": "C:\\Users\\Tetil\\Google Drive\\DashIO\\app\\src\\main\\res\\drawable-mdpi\\blueprogress.xml"
     },
     {
+        "merged": "C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\redprogress.xml",
+        "source": "C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\src\\main\\res\\drawable-mdpi\\redprogress.xml"
+    },
+    {
         "merged": "C:\\Users\\Tetil\\Google Drive\\DashIO\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
         "source": "C:\\Users\\Tetil\\Google Drive\\DashIO\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\blueprogress.xml",
+        "source": "C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\src\\main\\res\\drawable-mdpi\\blueprogress.xml"
     },
     {
         "merged": "C:\\Users\\Tetil\\Google Drive\\DashIO\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\redprogress.xml",
