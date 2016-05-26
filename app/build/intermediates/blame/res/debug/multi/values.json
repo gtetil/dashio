@@ -1,403 +1,5 @@
 [
     {
-        "outputFile": "C:\\Users\\Tetil\\Google Drive\\DashIO\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 57,
-                    "endOffset": 108
-                },
-                "from": {
-                    "file": "C:\\Users\\Tetil\\Google Drive\\DashIO\\app\\src\\main\\res\\values\\dimens.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 89,
-                        "endColumn": 57,
-                        "endOffset": 142
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 113,
-                    "endColumn": 55,
-                    "endOffset": 164
-                },
-                "from": {
-                    "file": "C:\\Users\\Tetil\\Google Drive\\DashIO\\app\\src\\main\\res\\values\\dimens.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 147,
-                        "endColumn": 55,
-                        "endOffset": 198
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 169,
-                    "endColumn": 52,
-                    "endOffset": 217
-                },
-                "from": {
-                    "file": "C:\\Users\\Tetil\\Google Drive\\DashIO\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 100,
-                        "endColumn": 52,
-                        "endOffset": 148
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 222,
-                    "endColumn": 43,
-                    "endOffset": 261
-                },
-                "from": {
-                    "file": "C:\\Users\\Tetil\\Google Drive\\DashIO\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 56,
-                        "endColumn": 43,
-                        "endOffset": 95
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 6,
-                    "startColumn": 4,
-                    "startOffset": 266,
-                    "endColumn": 88,
-                    "endOffset": 350
-                },
-                "from": {
-                    "file": "C:\\Users\\Tetil\\Google Drive\\DashIO\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 206,
-                        "endColumn": 88,
-                        "endOffset": 290
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 7,
-                    "startColumn": 4,
-                    "startOffset": 355,
-                    "endColumn": 100,
-                    "endOffset": 451
-                },
-                "from": {
-                    "file": "C:\\Users\\Tetil\\Google Drive\\DashIO\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 295,
-                        "endColumn": 100,
-                        "endOffset": 391
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 8,
-                    "startColumn": 4,
-                    "startOffset": 456,
-                    "endColumn": 98,
-                    "endOffset": 550
-                },
-                "from": {
-                    "file": "C:\\Users\\Tetil\\Google Drive\\DashIO\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 396,
-                        "endColumn": 98,
-                        "endOffset": 490
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 9,
-                    "startColumn": 4,
-                    "startOffset": 555,
-                    "endColumn": 52,
-                    "endOffset": 603
-                },
-                "from": {
-                    "file": "C:\\Users\\Tetil\\Google Drive\\DashIO\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 153,
-                        "endColumn": 52,
-                        "endOffset": 201
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 10,
-                    "startColumn": 4,
-                    "startOffset": 608,
-                    "endLine": 16,
-                    "endColumn": 12,
-                    "endOffset": 894
-                },
-                "from": {
-                    "file": "C:\\Users\\Tetil\\Google Drive\\DashIO\\app\\src\\main\\res\\values\\styles.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 186,
-                        "endLine": 12,
-                        "endColumn": 12,
-                        "endOffset": 472
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 17,
-                    "startColumn": 4,
-                    "startOffset": 899,
-                    "endLine": 19,
-                    "endColumn": 12,
-                    "endOffset": 1054
-                },
-                "from": {
-                    "file": "C:\\Users\\Tetil\\Google Drive\\DashIO\\app\\src\\main\\res\\values\\styles.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 510,
-                        "endLine": 17,
-                        "endColumn": 12,
-                        "endOffset": 665
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "C:\\Users\\Tetil\\Google Drive\\Projects\\dashio\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 57,
-                    "endOffset": 108
-                },
-                "from": {
-                    "file": "C:\\Users\\Tetil\\Google Drive\\Projects\\dashio\\app\\src\\main\\res\\values\\dimens.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 92,
-                        "endColumn": 57,
-                        "endOffset": 145
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 113,
-                    "endColumn": 55,
-                    "endOffset": 164
-                },
-                "from": {
-                    "file": "C:\\Users\\Tetil\\Google Drive\\Projects\\dashio\\app\\src\\main\\res\\values\\dimens.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 151,
-                        "endColumn": 55,
-                        "endOffset": 202
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 169,
-                    "endColumn": 52,
-                    "endOffset": 217
-                },
-                "from": {
-                    "file": "C:\\Users\\Tetil\\Google Drive\\Projects\\dashio\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 104,
-                        "endColumn": 52,
-                        "endOffset": 152
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 222,
-                    "endColumn": 43,
-                    "endOffset": 261
-                },
-                "from": {
-                    "file": "C:\\Users\\Tetil\\Google Drive\\Projects\\dashio\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 59,
-                        "endColumn": 43,
-                        "endOffset": 98
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 6,
-                    "startColumn": 4,
-                    "startOffset": 266,
-                    "endColumn": 88,
-                    "endOffset": 350
-                },
-                "from": {
-                    "file": "C:\\Users\\Tetil\\Google Drive\\Projects\\dashio\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 212,
-                        "endColumn": 88,
-                        "endOffset": 296
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 7,
-                    "startColumn": 4,
-                    "startOffset": 355,
-                    "endColumn": 100,
-                    "endOffset": 451
-                },
-                "from": {
-                    "file": "C:\\Users\\Tetil\\Google Drive\\Projects\\dashio\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 302,
-                        "endColumn": 100,
-                        "endOffset": 398
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 8,
-                    "startColumn": 4,
-                    "startOffset": 456,
-                    "endColumn": 98,
-                    "endOffset": 550
-                },
-                "from": {
-                    "file": "C:\\Users\\Tetil\\Google Drive\\Projects\\dashio\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 404,
-                        "endColumn": 98,
-                        "endOffset": 498
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 9,
-                    "startColumn": 4,
-                    "startOffset": 555,
-                    "endColumn": 52,
-                    "endOffset": 603
-                },
-                "from": {
-                    "file": "C:\\Users\\Tetil\\Google Drive\\Projects\\dashio\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 158,
-                        "endColumn": 52,
-                        "endOffset": 206
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 10,
-                    "startColumn": 4,
-                    "startOffset": 608,
-                    "endLine": 16,
-                    "endColumn": 12,
-                    "endOffset": 894
-                },
-                "from": {
-                    "file": "C:\\Users\\Tetil\\Google Drive\\Projects\\dashio\\app\\src\\main\\res\\values\\styles.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 192,
-                        "endLine": 12,
-                        "endColumn": 12,
-                        "endOffset": 484
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 17,
-                    "startColumn": 4,
-                    "startOffset": 899,
-                    "endLine": 19,
-                    "endColumn": 12,
-                    "endOffset": 1054
-                },
-                "from": {
-                    "file": "C:\\Users\\Tetil\\Google Drive\\Projects\\dashio\\app\\src\\main\\res\\values\\styles.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 525,
-                        "endLine": 17,
-                        "endColumn": 12,
-                        "endOffset": 682
-                    }
-                }
-            }
-        ]
-    },
-    {
         "outputFile": "C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
         "map": [
             {
@@ -443,17 +45,17 @@
                     "startLine": 4,
                     "startColumn": 4,
                     "startOffset": 169,
-                    "endColumn": 52,
-                    "endOffset": 217
+                    "endColumn": 60,
+                    "endOffset": 225
                 },
                 "from": {
                     "file": "C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 100,
-                        "endColumn": 52,
-                        "endOffset": 148
+                        "startOffset": 474,
+                        "endColumn": 60,
+                        "endOffset": 530
                     }
                 }
             },
@@ -461,9 +63,218 @@
                 "to": {
                     "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 222,
+                    "startOffset": 230,
+                    "endColumn": 60,
+                    "endOffset": 286
+                },
+                "from": {
+                    "file": "C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 535,
+                        "endColumn": 60,
+                        "endOffset": 591
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 291,
+                    "endColumn": 60,
+                    "endOffset": 347
+                },
+                "from": {
+                    "file": "C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 596,
+                        "endColumn": 60,
+                        "endOffset": 652
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 352,
+                    "endColumn": 60,
+                    "endOffset": 408
+                },
+                "from": {
+                    "file": "C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 657,
+                        "endColumn": 60,
+                        "endOffset": 713
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 413,
+                    "endColumn": 60,
+                    "endOffset": 469
+                },
+                "from": {
+                    "file": "C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 718,
+                        "endColumn": 60,
+                        "endOffset": 774
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 474,
+                    "endColumn": 60,
+                    "endOffset": 530
+                },
+                "from": {
+                    "file": "C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 779,
+                        "endColumn": 60,
+                        "endOffset": 835
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 535,
+                    "endColumn": 61,
+                    "endOffset": 592
+                },
+                "from": {
+                    "file": "C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 101,
+                        "endColumn": 61,
+                        "endOffset": 158
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 597,
+                    "endColumn": 61,
+                    "endOffset": 654
+                },
+                "from": {
+                    "file": "C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 163,
+                        "endColumn": 61,
+                        "endOffset": 220
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 659,
+                    "endColumn": 61,
+                    "endOffset": 716
+                },
+                "from": {
+                    "file": "C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 225,
+                        "endColumn": 61,
+                        "endOffset": 282
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 721,
+                    "endColumn": 61,
+                    "endOffset": 778
+                },
+                "from": {
+                    "file": "C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 287,
+                        "endColumn": 61,
+                        "endOffset": 344
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 783,
+                    "endColumn": 61,
+                    "endOffset": 840
+                },
+                "from": {
+                    "file": "C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 349,
+                        "endColumn": 61,
+                        "endOffset": 406
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 845,
+                    "endColumn": 61,
+                    "endOffset": 902
+                },
+                "from": {
+                    "file": "C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 411,
+                        "endColumn": 61,
+                        "endOffset": 468
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 907,
                     "endColumn": 43,
-                    "endOffset": 261
+                    "endOffset": 946
                 },
                 "from": {
                     "file": "C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\src\\main\\res\\values\\strings.xml",
@@ -478,88 +289,12 @@
             },
             {
                 "to": {
-                    "startLine": 6,
+                    "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 266,
-                    "endColumn": 88,
-                    "endOffset": 350
-                },
-                "from": {
-                    "file": "C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 206,
-                        "endColumn": 88,
-                        "endOffset": 290
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 7,
-                    "startColumn": 4,
-                    "startOffset": 355,
-                    "endColumn": 100,
-                    "endOffset": 451
-                },
-                "from": {
-                    "file": "C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 295,
-                        "endColumn": 100,
-                        "endOffset": 391
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 8,
-                    "startColumn": 4,
-                    "startOffset": 456,
-                    "endColumn": 98,
-                    "endOffset": 550
-                },
-                "from": {
-                    "file": "C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 396,
-                        "endColumn": 98,
-                        "endOffset": 490
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 9,
-                    "startColumn": 4,
-                    "startOffset": 555,
-                    "endColumn": 52,
-                    "endOffset": 603
-                },
-                "from": {
-                    "file": "C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 153,
-                        "endColumn": 52,
-                        "endOffset": 201
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 10,
-                    "startColumn": 4,
-                    "startOffset": 608,
-                    "endLine": 16,
+                    "startOffset": 951,
+                    "endLine": 23,
                     "endColumn": 12,
-                    "endOffset": 894
+                    "endOffset": 1237
                 },
                 "from": {
                     "file": "C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\src\\main\\res\\values\\styles.xml",
@@ -575,12 +310,12 @@
             },
             {
                 "to": {
-                    "startLine": 17,
+                    "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 899,
-                    "endLine": 19,
+                    "startOffset": 1242,
+                    "endLine": 26,
                     "endColumn": 12,
-                    "endOffset": 1054
+                    "endOffset": 1397
                 },
                 "from": {
                     "file": "C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\src\\main\\res\\values\\styles.xml",

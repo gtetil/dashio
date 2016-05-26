@@ -8,15 +8,16 @@ import java.io.OutputStream;
 import com.hardkernel.odroid.serialport.SerialPort;
 
 import android.app.Activity;
-import android.app.AlertDialog;
-import android.content.DialogInterface;
-import android.content.DialogInterface.OnClickListener;
+import android.content.Intent;
+import android.graphics.drawable.Drawable;
+import android.net.Uri;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CompoundButton;
+import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.ToggleButton;
 
 public class MainActivity extends Activity {
     
@@ -29,13 +30,19 @@ public class MainActivity extends Activity {
     public TextView mDI1indicator;
     public TextView mDI2indicator;
     public TextView mDI3indicator;
+    public TextView mDI4indicator;
+    public TextView mDI5indicator;
 
-    public Button mDO0button;
-    public Button mDO1button;
-    public Button mDO2button;
-    public Button mDO3button;
+    public ToggleButton mDO0button;
+    public ToggleButton mDO1button;
+    public ToggleButton mDO2button;
+    public ToggleButton mDO3button;
+    public ToggleButton mDO4button;
+    public ToggleButton mDO5button;
 
-    int mDO0state = 0;
+    public ImageButton mGoogleMapsButton;
+
+    int mDigitalOutputs = 0;
 
     
     private class ReadThread extends Thread {
@@ -62,7 +69,19 @@ public class MainActivity extends Activity {
         }
         
     }
-    
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        fullScreen();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        fullScreen();
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -72,12 +91,17 @@ public class MainActivity extends Activity {
         mDI1indicator =(TextView)findViewById(R.id.DI1_indicator);
         mDI2indicator =(TextView)findViewById(R.id.DI2_indicator);
         mDI3indicator =(TextView)findViewById(R.id.DI3_indicator);
+        mDI4indicator =(TextView)findViewById(R.id.DI4_indicator);
+        mDI5indicator =(TextView)findViewById(R.id.DI5_indicator);
 
-        mDO0button = (Button)findViewById(R.id.DO0_button);
-        mDO1button = (Button)findViewById(R.id.DO1_button);
-        mDO2button = (Button)findViewById(R.id.DO2_button);
-        mDO3button = (Button)findViewById(R.id.DO3_button);
+        mDO0button = (ToggleButton)findViewById(R.id.DO0_button);
+        mDO1button = (ToggleButton)findViewById(R.id.DO1_button);
+        mDO2button = (ToggleButton)findViewById(R.id.DO2_button);
+        mDO3button = (ToggleButton)findViewById(R.id.DO3_button);
+        mDO4button = (ToggleButton)findViewById(R.id.DO4_button);
+        mDO5button = (ToggleButton)findViewById(R.id.DO5_button);
 
+        mGoogleMapsButton = (ImageButton)findViewById(R.id.google_maps_btn);
 
         try {
             mSerialPort = new SerialPort(new File("/dev/ttyACM0"), 115200, 0);
@@ -92,18 +116,84 @@ public class MainActivity extends Activity {
             //DisplayError(R.string.error_unknown);
         }
 
-        mDO0button.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                try {
-                    if (mDO0state == 1) {
-                        mDO0state = 0;
-                    } else {
-                        mDO0state = 1;
-                    }
-                    mOutputStream.write(mDO0state);
-                } catch (Exception e) {}
+        mDO0button.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                writeDigitalOutputs(isChecked, 0);
+                setButtonIndicator(mDO0button, isChecked);
             }
         });
+
+        mDO1button.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                writeDigitalOutputs(isChecked, 1);
+                setButtonIndicator(mDO1button, isChecked);
+            }
+        });
+
+        mDO2button.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                writeDigitalOutputs(isChecked, 2);
+                setButtonIndicator(mDO2button, isChecked);
+            }
+        });
+
+        mDO3button.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                writeDigitalOutputs(isChecked, 3);
+                setButtonIndicator(mDO3button, isChecked);
+            }
+        });
+
+        mDO4button.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                writeDigitalOutputs(isChecked, 4);
+                setButtonIndicator(mDO4button, isChecked);
+            }
+        });
+
+        mDO5button.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                writeDigitalOutputs(isChecked, 5);
+                setButtonIndicator(mDO5button, isChecked);
+            }
+        });
+
+        mGoogleMapsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(android.content.Intent.ACTION_VIEW,
+                        Uri.parse("http://maps.google.com/maps"));
+                startActivity(intent);
+            }
+        });
+
+    }
+
+    public void setButtonIndicator(ToggleButton toggleButton, boolean state) {
+        Drawable img = getDrawable(android.R.drawable.button_onoff_indicator_off);
+        if (state) {
+            img = getDrawable(android.R.drawable.button_onoff_indicator_on);
+        }
+        toggleButton.setCompoundDrawablesWithIntrinsicBounds(null, null, null, img);
+    }
+
+    public void writeDigitalOutputs(boolean state, int position) {
+        int mask = (int)Math.pow(2, position);
+        if (state) {
+            mDigitalOutputs = mDigitalOutputs | mask;
+        } else {
+            mDigitalOutputs = mDigitalOutputs & ~mask;
+        }
+
+        try {
+            mOutputStream.write(mDigitalOutputs);
+        } catch (Exception e) {}
     }
     
     protected void onDataReceived(final byte[] buffer, final int size) {
@@ -111,20 +201,33 @@ public class MainActivity extends Activity {
             public void run() {
                 int data = buffer[0];
                 //Log.e("data:", Integer.toString(data));
-                setDIindicators(mDI0indicator, data, 1);
-                setDIindicators(mDI1indicator, data, 2);
-                setDIindicators(mDI2indicator, data, 4);
-                setDIindicators(mDI3indicator, data, 8);
+                setDIindicator(mDI0indicator, data, 0);
+                setDIindicator(mDI1indicator, data, 1);
+                setDIindicator(mDI2indicator, data, 2);
+                setDIindicator(mDI3indicator, data, 3);
+                setDIindicator(mDI3indicator, data, 4);
+                setDIindicator(mDI3indicator, data, 5);
             }
         });
     }
 
-    public void setDIindicators(TextView textView, int data, int mask) {
+    public void setDIindicator(TextView textView, int data, int position) {
+        int mask = (int)Math.pow(2, position);
         if ((data & mask) == mask) {
             textView.setBackgroundResource(R.drawable.digital_indicator_on);
         } else {
             textView.setBackgroundResource(R.drawable.digital_indicator);
         }
+    }
+
+    private void fullScreen() {
+        getWindow().getDecorView().setSystemUiVisibility(
+                View.SYSTEM_UI_FLAG_LAYOUT_STABLE
+                        | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
+                        | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+                        | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
+                        | View.SYSTEM_UI_FLAG_FULLSCREEN
+                        | View.SYSTEM_UI_FLAG_IMMERSIVE);
     }
     
     @Override
@@ -135,5 +238,7 @@ public class MainActivity extends Activity {
         mSerialPort = null;
         super.onDestroy();
     }
+
+
 
 }

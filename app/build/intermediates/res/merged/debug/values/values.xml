@@ -2,12 +2,19 @@
 <resources>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <string name="action_settings">Settings</string>
-    <string name="app_name">Oduino</string>
-    <string name="error_configuration">Please configure your serial port first.</string>
-    <string name="error_security">You do not have read/write permission to the serial port.</string>
-    <string name="error_unknown">The serial port can not be opened for an unknown reason.</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="DI0_description">DIGITAL INPUT #0</string>
+    <string name="DI1_description">DIGITAL INPUT #1</string>
+    <string name="DI2_description">DIGITAL INPUT #2</string>
+    <string name="DI3_description">DIGITAL INPUT #3</string>
+    <string name="DI4_description">DIGITAL INPUT #4</string>
+    <string name="DI5_description">DIGITAL INPUT #5</string>
+    <string name="DO0_description">DIGITAL OUTPUT #0</string>
+    <string name="DO1_description">DIGITAL OUTPUT #1</string>
+    <string name="DO2_description">DIGITAL OUTPUT #2</string>
+    <string name="DO3_description">DIGITAL OUTPUT #3</string>
+    <string name="DO4_description">DIGITAL OUTPUT #4</string>
+    <string name="DO5_description">DIGITAL OUTPUT #5</string>
+    <string name="app_name">dashIO</string>
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--
             Theme customizations available in newer API levels can go in
