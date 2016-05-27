@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\build\\intermediates\\res\\merged\\debug\\values-v14\\values-v14.xml",
+        "outputFile": "C:\\Users\\Tetil\\Google Drive\\Projects\\dashio\\app\\build\\intermediates\\res\\merged\\debug\\values-v14\\values-v14.xml",
         "map": [
             {
                 "to": {
@@ -12,14 +12,14 @@
                     "endOffset": 199
                 },
                 "from": {
-                    "file": "C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "file": "C:\\Users\\Tetil\\Google Drive\\Projects\\dashio\\app\\src\\main\\res\\values-v14\\styles.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 220,
+                        "startOffset": 227,
                         "endLine": 9,
                         "endColumn": 12,
-                        "endOffset": 364
+                        "endOffset": 373
                     }
                 }
             }
