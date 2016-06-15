@@ -1,42 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="armeabi-v7a,armeabi"
-    api-level="22"
-    density="mdpi"
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="23"
+    density="420dpi"
     format="7"
-    timestamp="1270139572911687" >
+    timestamp="438282702296553" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="114" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="19" />
     <task
         name="verifier"
-        duration="0" />
+        duration="2" />
 
     <artifact
-        location="C:\Users\Tetil\Google Drive\Projects\dashio\app\build\intermediates\res\resources-debug.ap_"
-        type="RESOURCES" />
+        location="C:\Users\gtetil\Documents\Projects\DashIO\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+        type="DEX" />
 
-    <build timestamp="1269000688134691" >
+    <build timestamp="436360756212907" >
         <artifact
-            location="C:\Users\Tetil\Google Drive\Projects\dashio\app\build\outputs\apk\app-debug.apk"
+            location="C:\Users\gtetil\Documents\Projects\DashIO\app\build\outputs\apk\app-x86-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="1269064876751537" >
+    <build timestamp="438076509319720" >
         <artifact
-            location="C:\Users\Tetil\Google Drive\Projects\dashio\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+            location="C:\Users\gtetil\Documents\Projects\DashIO\app\build\intermediates\res\resources-x86-debug.ap_"
+            type="RESOURCES" />
+    </build>
+    <build timestamp="438139157236821" >
+        <artifact
+            location="C:\Users\gtetil\Documents\Projects\DashIO\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
             type="DEX" />
     </build>
-    <build timestamp="1270139572911687" >
+    <build timestamp="438282702296553" >
         <artifact
-            location="C:\Users\Tetil\Google Drive\Projects\dashio\app\build\intermediates\res\resources-debug.ap_"
-            type="RESOURCES" />
+            location="C:\Users\gtetil\Documents\Projects\DashIO\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

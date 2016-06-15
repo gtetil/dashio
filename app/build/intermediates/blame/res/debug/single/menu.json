@@ -1,6 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\Tetil\\Google Drive\\Projects\\dashio\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "C:\\Users\\Tetil\\Google Drive\\Projects\\dashio\\app\\src\\main\\res\\menu\\main.xml"
+        "merged": "C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\build\\intermediates\\res\\merged\\debug\\menu\\easycam.xml",
+        "source": "C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\src\\main\\res\\menu\\easycam.xml"
+    },
+    {
+        "merged": "C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\src\\main\\res\\menu\\main.xml"
     }
 ]
