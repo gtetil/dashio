@@ -1676,7 +1676,7 @@ containing a value of this type.
         public static final int end_padder=0x7f0e006e;
         public static final int expand_activities_button=0x7f0e0025;
         public static final int expanded_menu=0x7f0e0038;
-        public static final int fragment_container=0x7f0e0051;
+        public static final int fragment_container=0x7f0e0050;
         public static final int google_maps_btn=0x7f0e0061;
         public static final int home=0x7f0e0004;
         public static final int homeAsUp=0x7f0e000d;
@@ -1691,7 +1691,7 @@ containing a value of this type.
         public static final int linearLayout3=0x7f0e0060;
         public static final int listMode=0x7f0e0009;
         public static final int list_item=0x7f0e0028;
-        public static final int mainLayout=0x7f0e0050;
+        public static final int mainLayout=0x7f0e0051;
         public static final int media_actions=0x7f0e0065;
         public static final int middle=0x7f0e001b;
         public static final int multiply=0x7f0e0014;
@@ -1775,8 +1775,8 @@ containing a value of this type.
         public static final int abc_search_dropdown_item_icons_2line=0x7f040016;
         public static final int abc_search_view=0x7f040017;
         public static final int abc_select_dialog_material=0x7f040018;
-        public static final int fragment_easycam =0x7f040019;
-        public static final int activity_fragment=0x7f04001a;
+        public static final int activity_fragment=0x7f040019;
+        public static final int fragment_easycam=0x7f04001a;
         public static final int fragment_home=0x7f04001b;
         public static final int notification_media_action=0x7f04001c;
         public static final int notification_media_cancel_action=0x7f04001d;
