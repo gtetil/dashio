@@ -6,13 +6,5 @@
     {
         "merged": "/home/tetil/Projects/dashio/app/build/intermediates/res/merged/debug/menu/easycam.xml",
         "source": "/home/tetil/Projects/dashio/app/src/main/res/menu/easycam.xml"
-    },
-    {
-        "merged": "/home/tetil/Projects/dashio/C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "/home/tetil/Projects/dashio/C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\src\\main\\res\\menu\\main.xml"
-    },
-    {
-        "merged": "/home/tetil/Projects/dashio/C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\build\\intermediates\\res\\merged\\debug\\menu\\easycam.xml",
-        "source": "/home/tetil/Projects/dashio/C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\src\\main\\res\\menu\\easycam.xml"
     }
 ]

@@ -4,14 +4,6 @@
         "source": "/home/tetil/Projects/dashio/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/tetil/Projects/dashio/C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\google_maps.png",
-        "source": "/home/tetil/Projects/dashio/C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\src\\main\\res\\mipmap-mdpi\\google_maps.png"
-    },
-    {
-        "merged": "/home/tetil/Projects/dashio/C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_launcher.png",
-        "source": "/home/tetil/Projects/dashio/C:\\Users\\gtetil\\Documents\\Projects\\DashIO\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
-    },
-    {
         "merged": "/home/tetil/Projects/dashio/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/google_maps.png",
         "source": "/home/tetil/Projects/dashio/app/src/main/res/mipmap-mdpi/google_maps.png"
     }

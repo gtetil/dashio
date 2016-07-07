@@ -113,7 +113,7 @@ public class HomeFragment extends Fragment {
         mGoogleMapsButton = (ImageButton)v.findViewById(R.id.google_maps_btn);
 
         try {
-            mSerialPort = new SerialPort(new File("/dev/ttyACM1"), 115200, 0);
+            mSerialPort = new SerialPort(new File("/dev/ttyACM0"), 115200, 0);
             mOutputStream = mSerialPort.getOutputStream();
             mInputStream = mSerialPort.getInputStream();
             
